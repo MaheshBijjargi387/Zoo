@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://img.icons8.com/?size=100&id=4Bjh80P0Jspj&format=png&color=000000">
+</head>
+<style>
+    .contact-hero {
+        height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.218)), url("https://shine.creativemox.com/zoora/wp-content/uploads/sites/30/2024/10/the-giant-panda-in-the-zoo-eats-bamboo-.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    .contact-us-container {
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-us-container h1 {
+        color: #FBB03B;
+        font-size: 70px;
+    }
+
+    .contact-us-container p {
+        color: white;
+        font-size: 30px;
+        width: 450px;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 479px) {
+        .contact-us-container {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .contact-us-container h1 {
+            font-size: 30px;
+            color: #FBB03B;
+        }
+
+        .contact-us-container p {
+            font-size: 15px;
+            color: white;
+            margin-top: 20px;
+            width: 200px;
+
+        }
+    }
+
+    .seamless-communication {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 50px 20px;
+        margin-bottom: 100px;
+    }
+
+    .seamless-communication-heading {
+        margin-bottom: 50px;
+    }
+
+    .seamless-communication-heading h1 {
+        font-size: 40px;
+        color: #395902;
+        margin-top: 10px;
+    }
+
+    .seamless-communication-heading p {
+        font-size: 18px;
+        color: #FBB03B;
+        font-weight: bold;
+    }
+
+
+    .seamless-communication-card {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        justify-content: center;
+    }
+
+
+    .seamless-communication-card1 {
+        background-color: beige;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .seamless-communication-card1:hover {
+        transform: scale(1.05);
+    }
+
+
+    .seamless-communication-card-img {
+        width: 70px;
+        height: 70px;
+        background-color: #FBB03B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .seamless-communication-card-img img {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .seamless-communication-card1 h3 {
+        margin-top: 20px;
+        font-size: 20px;
+        color: #333;
+    }
+
+    .seamless-communication-card1 p {
+        margin-top: 5px;
+        font-size: 16px;
+        color: #333;
+    }
+
+
+    @media screen and (max-width: 768px) {
+        .seamless-communication-heading h1 {
+            font-size: 32px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .seamless-communication-heading h1 {
+            font-size: 28px;
+        }
+
+        .seamless-communication-card {
+            gap: 15px;
+        }
+    }
+</style>
+
+<body>
+    <section class="contact-hero">
+
+
+        <div class="header">
+            <img src="https://shine.creativemox.com/zoora/wp-content/uploads/sites/30/2024/10/logo_zoora.png" alt="">
+            <nav>
+                <ul id="hero-ui">
+                    <li id="hero-li"><a href="index.html">Home</a></li>
+                    <li id="hero-li"><a href="about.html">About</a></li>
+                    <li id="hero-li"><a href="Attractions.html">Attractions</a></li>
+                    <li id="hero-li"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="hero-button">BUY TICKET</button>
+        </div>
+
+        <div class="contact-us-container">
+            <h1>Contact us</h1>
+            <p>Start the conversation to established good relationship and business.</p>
+        </div>
+    </section>
+
+
+    <section class="seamless-communication">
+        <div class="seamless-communication-heading">
+            <p>Get in touch</p>
+            <h1>Seamless Communication, Global Impact.</h1>
+        </div>
+
+        <div class="seamless-communication-card">
+            <div class="seamless-communication-card1">
+                <div class="seamless-communication-card-img">
+                    <img src="https://img.icons8.com/?size=100&id=3723&format=png&color=000000" alt="Head Office Icon">
+                </div>
+                <h3>Head Office</h3>
+                <p>Jln Cempaka Wangi No 22</p>
+                <p>Jakarta - Indonesia</p>
+            </div>
+
+            <div class="seamless-communication-card1">
+                <div class="seamless-communication-card-img">
+                    <img src="https://img.icons8.com/?size=100&id=SaUMpeyy7rHl&format=png&color=000000"
+                        alt="Email Icon">
+                </div>
+                <h3>Email Support</h3>
+                <p>support@yourdomain.tld</p>
+                <p>hello@yourdomain.tld</p>
+            </div>
+
+            <div class="seamless-communication-card1">
+                <div class="seamless-communication-card-img">
+                    <img src="https://img.icons8.com/?size=100&id=THlVugtS8NPL&format=png&color=000000"
+                        alt="Phone Icon">
+                </div>
+                <h3>Let's Talk</h3>
+                <p>Phone: +6221.2002.2012</p>
+                <p>Fax: +6221.2002.2013</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+
+        <section class="stay-up">
+            <div class="stay-up-img">
+                <img src="https://shine.creativemox.com/zoora/wp-content/uploads/sites/30/2024/10/img_1.png" alt="">
+            </div>
+
+            <div class="stay-up-heding">
+                <h3 id="stay-up-h">Stay up to date</h3>
+                <p id="stay-up-p">Signup our newsletter to get update information, news, insight or promotions.</p>
+
+            </div>
+            <div class="stay-up-email">
+                <input type="email" placeholder="email">
+                <button id="stay-up-button"> SIGN UP</button>
+            </div>
+        </section>
+
+        <!-- contact start -->
+        <section class="quicklink">
+            <div class="quicklink-logo">
+                <img src="https://shine.creativemox.com/zoora/wp-content/uploads/sites/30/2024/10/logo_zoora.png"
+                    alt="">
+
+            </div>
+
+            <div class="sales-ticket">
+                <p id="sales-ticket-heding">Sales & Ticket</p>
+                <div class="contact">
+                    <div class="sales-ticket-icon"><img
+                            src="https://img.icons8.com/?size=100&id=9659&format=png&color=000000" alt=""></div>
+                    <div class="sales-ticket-support">
+                        <p id="sales-ticket-1">Customer Support</p>
+                        <p id="sales-ticket-2">(888) 4000-2424</p>
+                    </div>
+                </div>
+
+                <div class="contact">
+                    <div class="sales-ticket-icon"><img
+                            src="https://img.icons8.com/?size=100&id=9659&format=png&color=000000" alt=""></div>
+                    <div class="sales-ticket-support">
+                        <p id="sales-ticket-1">Email Support</p>
+                        <p id="sales-ticket-2">sales@domain.tld</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sales-ticket get-in-touch">
+                <p id="sales-ticket-heding">Get in touch</p>
+                <div class="contact">
+                    <div class="sales-ticket-icon"><img
+                            src="https://img.icons8.com/?size=100&id=9659&format=png&color=000000" alt=""></div>
+                    <div class="sales-ticket-support">
+                        <p id="sales-ticket-1">Head Quarters</p>
+                        <p id="sales-ticket-2">Jalan Cempaka Wangi No <br> 22
+                            Jakarta - Indonesia</p>
+                    </div>
+                </div>
+
+                <div class="social">
+                    <div class="social-icon"><img
+                            src="https://img.icons8.com/?size=100&id=62225&format=png&color=000000" alt=""></div>
+                    <div class="social-icon"><img
+                            src="https://img.icons8.com/?size=100&id=32292&format=png&color=000000" alt=""></div>
+                    <div class="social-icon"><img src="https://img.icons8.com/?size=100&id=437&format=png" alt="">
+                    </div>
+                    <div class="social-icon"><img
+                            src="https://img.icons8.com/?size=100&id=15979&format=png&color=000000" alt=""></div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="copyright">
+            <div class="copyright-content">
+                <p>Copyright © <span id="year"></span> Zoora, All rights reserved. Powered by MoxCreative.</p>
+            </div>
+            <div class="copyright-terms">
+                <p class="terms-item">Term of Service</p>
+                <p class="terms-item">Privacy Policy</p>
+                <p class="terms-item">Cookie Policy</p>
+            </div>
+        </section>
+    </footer>
+
+
+
+</body>
+
+</html>
